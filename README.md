@@ -21,9 +21,15 @@ Secondly, the user must have the following packages installed:
 
 ### Testing
 
-Type python ilp.py to run the program. The program asks for the input filetype (csv or txt). Once provided, the program executes and displays the following:
+Type the following to execute the code:
+```
+python ilp.py
+```
+The program asks for the input filetype (csv or txt). Once provided, the program executes and displays the following:
+```
 1. The value of the indicator variables (0/1)
 2. The optimal objective function value
 3. The total number of nodes in the graph
 4. The total % savings 
 5. The amount of time taken for the execution of the code
+```
