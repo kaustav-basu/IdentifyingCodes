@@ -17,8 +17,8 @@ import pandas as pd
 
 # To read edge-lists stored as txt files
 def readGraphEdgelist():
-    G = nx.DiGraph()
-    G = nx.read_edgelist("Edge-Lists/ParisAdj.txt", nodetype = int, create_using = nx.DiGraph())
+    G = nx.Graph()
+    G = nx.read_edgelist("Edge-Lists/ParisAdj.txt", nodetype = int, create_using = nx.Graph())
     return nx.to_numpy_matrix(G, nodelist = sorted(list(G.nodes())))
 
 # To read Adjacency matrix stored as csv files
